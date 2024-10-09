@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INSTAGRAM</title>
+</head>
+<body>
+    <form>
+    <img src="https://logosmarcas.net/wp-content/uploads/2020/04/Instagram-Logo.png" alt="">
+    <input type="text" placeholder="e-mail">
+    <input type="text" placeholder="senha">
+    <section class="btn-esqueceu">
+    <a href="">esqueceu sua senha?</a>
+    </section>
+    <section>
+    <button class="btn-entrar">Acessar</button>
+    </section>
+</form>
+    <style>
+        body{
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: whitesmoke;
+            overflow: hidden;
+        }
+        form{
+            gap: 20px;
+            display: flex;
+            align-items: center;
+            border-radius: 20px;
+            flex-direction: column;
+            height: 80%;
+            width: 30%;
+        }
+        input{
+            padding: 10px;
+            width: 60%;
+            height: 20px;
+            border: none;
+            
+        }
+       img{
+        height: 100px;
+        width: 200px;
+       }
+       section{
+        height: 60%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+       }
+       button{
+        width: 60%;
+        height: 30px;
+        background-color: dodgerblue;
+        border: none;
+        border-radius: 7px;
+        color: white;
+       }
+       a{
+        color: #3999FF;
+        outline: none;
+       }
+    .btn-esqueceu{
+        height: 100px;
+        width: 280px;
+        align-items: last baseline;
+    }
+    @media screen and (max-width: 678px) {
+        form{
+                margin-top: 20px;
+                width: 100%;
+
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            form section{
+                width: 100%;
+
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            a, button, .btn{
+                width: 80%;
+            }
+    }
+    </style>
+    
+</body>
+</html>
